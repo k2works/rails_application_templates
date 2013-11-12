@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Rubyの設定
 if yes?("rvmの設定をしますか？")
-  run "rvm gemset create bdd_test"
+  run "rvm gemset create bdd"
 end
 
 # RSpecの設定
